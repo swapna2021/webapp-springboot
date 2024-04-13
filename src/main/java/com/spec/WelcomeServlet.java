@@ -31,6 +31,7 @@ public class WelcomeServlet extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
 		out.println("Hello");
+		out.println("git springboot demo");
 		
 		
 	}
